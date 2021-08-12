@@ -36,3 +36,23 @@ Sample executible:
 * Modify a file
 * Delete a file
 * Establish a network connection and transmit data
+
+## Dev Instructions
+
+python version 3.8.x
+
+### Virtual Environment
+Activate
+```
+$ . venv/bin/activate
+```
+
+Deactivate
+```
+$ deactivate
+```
+
+### Install Requirements
+```
+$ pip install -r requirements.txt
+```
