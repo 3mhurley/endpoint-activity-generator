@@ -4,39 +4,32 @@
 
 # modules
 import os
-import argparse
+import click
 from pathlib import Path, PurePath
 
 
-def init_argparse() -> argparse.ArgumentParser:
-  parser = argparse.ArgumentParser(
-    usage='%(prog)s [OPTION] [PATH]',
-    description='Create, manipulate, send, and delete file',
-  )
-  parser.add_argument('path', help='specify the path where you want the file', type=str)
-
-  return parser
-
-def main():
-  # Initialize parser
-  parser = init_argparse()
-  args = parser.parse_args()
-
-  # Retrieve path from arguments
-  path = Path(args.path)
+@click.command()
+@click.argument('path')
+@click.option('--name', default='endpoint_activity', help='Name of the file')
+@click.option('--exe', default='txt', help='Extension of the file')
+def main(path, name, exe):
+  # Retrieve values from arguments
+  original_path = Path(path)
+  file = f"{name}.{exe}"
 
   # Create file
-  file_path = create(path)
+  file_path = create(original_path, file)
 
   # Manipulate file
-  new_file_path = manipulate(path, file_path)
+  new_file_path = manipulate(file_path, original_path, file)
 
   # Send data
 
   # Delete file
   new_file_path.unlink()
+  print('File deleted')
 
-def create(path):
+def create(path, name):
     # Create new file
   try:
     # Check if path exists
@@ -44,8 +37,8 @@ def create(path):
       raise Exception(f'Path: {path} does not exist')
 
     # Create
-    file = PurePath.joinpath(path, 'endpoint_activity.txt')
-    print(f'Original File: {file}')
+    file = PurePath.joinpath(path, name)
+    print(f'File created: {file}')
 
     # Write
     with open(file, 'x') as f:
@@ -58,7 +51,7 @@ def create(path):
     print(error)
     raise
 
-def manipulate(path, file_path):
+def manipulate(file_path, path, file):
   # Modify file
   try:
     ##Adjust file contents
@@ -67,13 +60,14 @@ def manipulate(path, file_path):
       f.write('\n01101111 01101100 01101100 01100101 01001000')  # olleH
 
     # Rename file
-    new_path_str = f'{path}\\activity_endpoint.txt'
+    file_name, file_exe = file.split('.')
+    new_path_str = f'{path}\\{file_name[::-1]}.{file_exe}'  # revers file name
     new_path = file_path.rename(new_path_str)
-    print(f'New path: {new_path}')
+    print(f'File renamed: {new_path}')
 
     # Change file extension
     final_path = new_path.rename(new_path.with_suffix('.text'))
-    print(f'Final path: {final_path}')
+    print(f'Extension changed: {final_path}')
 
     return final_path
 
