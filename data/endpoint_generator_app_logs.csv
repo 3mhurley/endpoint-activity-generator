@@ -1,0 +1,17 @@
+timestamp,process_name,process_id,process_command_line,username,activity,file_path,destination,source,protocol,data_size
+"08/17/2021, 14:51:05",app.exe,9392,C:\Users\3mh\Dev\3mhurley\endpoint-activity-generator\app.exe file,3mh,process started,,,,,
+"08/17/2021, 14:51:12",app.exe,9392,C:\Users\3mh\Dev\3mhurley\endpoint-activity-generator\app.exe file,3mh,file created,D:\Docs\Dev\Misc\endpoint_activity.txt,,,,
+"08/17/2021, 14:51:12",app.exe,9392,C:\Users\3mh\Dev\3mhurley\endpoint-activity-generator\app.exe file,3mh,file modified,D:\Docs\Dev\Misc\ytivitca_tniopdne.text,,,,
+"08/17/2021, 14:51:12",app.exe,9392,C:\Users\3mh\Dev\3mhurley\endpoint-activity-generator\app.exe file,3mh,file deleted,D:\Docs\Dev\Misc\ytivitca_tniopdne.text,,,,
+"08/17/2021, 14:51:21",app.exe,21468,C:\Users\3mh\Dev\3mhurley\endpoint-activity-generator\app.exe file,3mh,process started,,,,,
+"08/17/2021, 14:51:27",app.exe,21468,C:\Users\3mh\Dev\3mhurley\endpoint-activity-generator\app.exe file,3mh,file created,D:\Docs\Dev\Misc\testing.csv,,,,
+"08/17/2021, 14:51:27",app.exe,21468,C:\Users\3mh\Dev\3mhurley\endpoint-activity-generator\app.exe file,3mh,file modified,D:\Docs\Dev\Misc\gnitset.text,,,,
+"08/17/2021, 14:51:27",app.exe,21468,C:\Users\3mh\Dev\3mhurley\endpoint-activity-generator\app.exe file,3mh,file deleted,D:\Docs\Dev\Misc\gnitset.text,,,,
+"08/17/2021, 14:51:47",app.exe,29164,C:\Users\3mh\Dev\3mhurley\endpoint-activity-generator\app.exe exe,3mh,process started,,,,,
+"08/17/2021, 14:52:02",app.exe,29164,C:\Users\3mh\Dev\3mhurley\endpoint-activity-generator\app.exe exe,3mh,run executable,,,,,
+"08/17/2021, 14:52:19",app.exe,17312,C:\Users\3mh\Dev\3mhurley\endpoint-activity-generator\app.exe data api,3mh,process started,,,,,
+"08/17/2021, 14:53:07",app.exe,24104,C:\Users\3mh\Dev\3mhurley\endpoint-activity-generator\app.exe data api,3mh,transmission error,,http:1.1.1.1,DESKTOP|111.11.111.1,api,72
+"08/17/2021, 14:53:22",app.exe,13328,C:\Users\3mh\Dev\3mhurley\endpoint-activity-generator\app.exe data api,3mh,process started,,,,,
+"08/17/2021, 14:54:03",app.exe,20956,C:\Users\3mh\Dev\3mhurley\endpoint-activity-generator\app.exe data api,3mh,transmit data,,http://1.1.1.1,DESKTOP|111.11.111.1,api,72
+"08/17/2021, 14:54:26",app.exe,16324,C:\Users\3mh\Dev\3mhurley\endpoint-activity-generator\app.exe data tcp,3mh,process started,,,,,
+"08/17/2021, 14:54:57",app.exe,16324,C:\Users\3mh\Dev\3mhurley\endpoint-activity-generator\app.exe data tcp,3mh,transmission error,,1.1.1.1:1111,DESKTOP|111.11.111.1,tcp,72

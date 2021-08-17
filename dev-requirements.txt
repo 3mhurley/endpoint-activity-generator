@@ -1,0 +1,4 @@
+auto-py-to-exe
+black
+flake8
+isort
