@@ -1,0 +1,16 @@
+timestamp,process_name,process_id,process_command_line,username,activity,file_path,destination,source,protocol,data_size
+"08/17/2021, 14:01:55",python.exe,13376,C:\Users\3mh\Dev\3mhurley\endpoint-activity-generator\venv\Scripts\python.exe app.py file,3mh,process started,,,,,
+"08/17/2021, 14:02:06",python.exe,13376,C:\Users\3mh\Dev\3mhurley\endpoint-activity-generator\venv\Scripts\python.exe app.py file,3mh,file created,D:\Docs\Dev\Misc\endpoint_activity.txt,,,,
+"08/17/2021, 14:02:06",python.exe,13376,C:\Users\3mh\Dev\3mhurley\endpoint-activity-generator\venv\Scripts\python.exe app.py file,3mh,file modified,D:\Docs\Dev\Misc\ytivitca_tniopdne.text,,,,
+"08/17/2021, 14:02:06",python.exe,13376,C:\Users\3mh\Dev\3mhurley\endpoint-activity-generator\venv\Scripts\python.exe app.py file,3mh,file deleted,D:\Docs\Dev\Misc\ytivitca_tniopdne.text,,,,
+"08/17/2021, 14:02:10",python.exe,6780,C:\Users\3mh\Dev\3mhurley\endpoint-activity-generator\venv\Scripts\python.exe app.py file,3mh,process started,,,,,
+"08/17/2021, 14:02:28",python.exe,6780,C:\Users\3mh\Dev\3mhurley\endpoint-activity-generator\venv\Scripts\python.exe app.py file,3mh,file created,D:\Docs\Dev\Misc\activity_data.csv,,,,
+"08/17/2021, 14:02:28",python.exe,6780,C:\Users\3mh\Dev\3mhurley\endpoint-activity-generator\venv\Scripts\python.exe app.py file,3mh,file modified,D:\Docs\Dev\Misc\atad_ytivitca.text,,,,
+"08/17/2021, 14:02:28",python.exe,6780,C:\Users\3mh\Dev\3mhurley\endpoint-activity-generator\venv\Scripts\python.exe app.py file,3mh,file deleted,D:\Docs\Dev\Misc\atad_ytivitca.text,,,,
+"08/17/2021, 14:02:36",python.exe,18064,C:\Users\3mh\Dev\3mhurley\endpoint-activity-generator\venv\Scripts\python.exe app.py exe,3mh,process started,,,,,
+"08/17/2021, 14:03:01",python.exe,18064,C:\Users\3mh\Dev\3mhurley\endpoint-activity-generator\venv\Scripts\python.exe app.py exe,3mh,run executable,,,,,
+"08/17/2021, 14:03:34",python.exe,19584,C:\Users\3mh\Dev\3mhurley\endpoint-activity-generator\venv\Scripts\python.exe app.py data,3mh,process started,,,,,
+"08/17/2021, 14:03:43",python.exe,14872,C:\Users\3mh\Dev\3mhurley\endpoint-activity-generator\venv\Scripts\python.exe app.py data api,3mh,process started,,,,,
+"08/17/2021, 14:04:03",python.exe,14872,C:\Users\3mh\Dev\3mhurley\endpoint-activity-generator\venv\Scripts\python.exe app.py data api,3mh,transmission error,,1.1.1.1,DESKTOP|111.11.111.1,api,72
+"08/17/2021, 14:04:10",python.exe,9564,C:\Users\3mh\Dev\3mhurley\endpoint-activity-generator\venv\Scripts\python.exe app.py data tcp,3mh,process started,,,,,
+"08/17/2021, 14:04:43",python.exe,9564,C:\Users\3mh\Dev\3mhurley\endpoint-activity-generator\venv\Scripts\python.exe app.py data tcp,3mh,transmission error,,1.1.1.1:1111,DESKTOP|111.11.111.1,tcp,72
